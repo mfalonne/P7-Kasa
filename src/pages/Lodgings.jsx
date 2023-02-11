@@ -5,12 +5,16 @@ import Rating from "../components/Rating";
 import  DropDown from "../components/DropDown";
 import Profil from "../components/Profil";
 import TagList from "../components/TagList";
+import Error from "./Error";
 import '../styles/Lodgings.css';
-
 
 const Singlelodging = () => {
   const  id  = useParams();
   const logement = logements.find((logement) => logement.id === id.id);
+   // Error handling if the lodging id is not correct
+   if (logement=== undefined) {
+    return <Error/>;
+  }
 
   return (
     <div className='lodging container'>

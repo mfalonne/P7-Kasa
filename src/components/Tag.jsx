@@ -1,6 +1,6 @@
-import '../styles/Tags.css';
+import '../styles/Tag.css';
 
-function Tags(props) {
+function Tag(props) {
     const name = props.name;
     const className = props.className;
     return(
@@ -10,4 +10,4 @@ function Tags(props) {
     )
 }
 
-export default Tags;
+export default Tag;

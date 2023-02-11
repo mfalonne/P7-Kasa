@@ -1,36 +1,40 @@
 .head-image.container {
     position: relative;
-    width: 100%;
-    height: fit-content;
-
+    width:1440px;
+    margin: auto ;
+    height:223px;
 }
 
 .head-image.image {
+    position: absolute;
     object-fit: cover;
     width: 100%;
     height: 100%;
-    border-radius: 1rem;    
+    border-radius: 1rem;  
 }
 
 .head-image.title {
+    display: flex;
+    align-items: flex-end;
     position: absolute;
-    top: 50%;
+    left: 30.9%;
+    right: 25.14%;
+    top: 24.32%;
+    bottom: 9.84%;
     transform: translateY(-50%);
-    width: calc(100% - 40px);
-    margin: 0 20px;
-    font-size: 2rem;
-    text-align: center;
-    color: white;
-
+    margin: auto;
+    font-size: 48px;
+    color: white; 
 }
 
-
-@media screen and (max-width: 799px) {
-    .head-image.image {
-        height: 111px;
+@media screen and (max-width:767px) {
+    .head-image.container {
+        width:100%;
+        height:111px;
     }
-
     .head-image.title {
-        text-align: left;
+        font-size: 24px;
+        font-weight: 500;
+        left: 14.9%;
     }
 }

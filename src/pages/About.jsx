@@ -6,6 +6,7 @@ import { about_datas } from '../datas/about_datas';
 import '../styles/About.css';
 
 
+
 function About() {
     return(
         <div className='about container'>
