@@ -1,6 +1,7 @@
 
 .dropdown.container {
-    width: 100%;
+    width: 1023px;
+    margin: auto;
 }
 .dropdown.title-container {
     position: relative;
@@ -33,4 +34,31 @@
     border-radius: 0 0 5px 5px;
     white-space: pre-wrap;
     color: #FF6060;
+    font-size: 20px;
+}
+@media screen and (max-width:767px) {
+    .dropdown.text-container {
+      font-size: 17px;
+    }
+    .dropdown.container {
+        width: 98%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .dropdown.text-container {
+        font-size: 17px;
+        padding: 5px 20px 20px 20px;
+      }
+      .dropdown.container {
+        width: 98%;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1439px){
+    .dropdown.text-container {
+        font-size: 17px;
+        padding: 5px 20px 20px 20px;
+      }
+      .dropdown.container {
+        width: 98%;
+    }
 }

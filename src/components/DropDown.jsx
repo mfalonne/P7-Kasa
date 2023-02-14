@@ -7,6 +7,7 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 function DropDown(props) {
     const title = props.title;
     const text = props.text;
+    
     const className = props.className;
     const [isOpen, setIsOpen] = useState(false);
     return(

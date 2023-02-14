@@ -29,3 +29,50 @@
     font-size: 0.98rem;
     margin-bottom: 5%;
 }
+@media screen and (max-width:767px) {
+    .not-found.message {
+        font-size: 23px;
+        top: 44%;
+    }
+    .not-found.code {
+        font-size: 199px;
+      
+    }
+    .not-found.link {
+        font-size: 0.98rem;
+        margin: 60px auto 60px;
+    }
+  
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .not-found.message {
+        font-size: 23px;
+        top: 44%;
+    }
+    .not-found.code {
+        font-size: 199px;
+      
+    }
+    .not-found.link {
+        font-size: 0.98rem;
+        margin: 60px auto 60px;
+    }
+
+    
+}
+@media screen and (min-width:992px) and (max-width:1440px){
+    .not-found.message {
+        font-size: 23px;
+        top: 44%;
+    }
+    .not-found.code {
+        font-size: 199px;
+      
+    }
+    .not-found.link {
+        font-size: 0.98rem;
+        margin: 60px auto 60px;
+    }
+  
+
+}

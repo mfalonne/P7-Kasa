@@ -35,6 +35,30 @@
     .head-image.title {
         font-size: 24px;
         font-weight: 500;
-        left: 14.9%;
+        left: 3.9%;
     }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .head-image.container {
+        width:95%;
+        height: 137px;
+        /*height:111px;*/
+    }
+    .head-image.title {
+        font-size: 30px;
+        font-weight: 500;
+        left: 3.9%;
+    }
+
+}
+@media screen and (min-width:992px) and (max-width:1439px){
+    .head-image.container {
+        width:95%;
+        height: 183px;
+    }
+    .head-image.title {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
 }

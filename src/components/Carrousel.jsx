@@ -37,7 +37,7 @@ function Caroussel(props) {
             {imgList &&
             <img src={imgList[index]} alt={alt + ' ' + index} className='caroussel image'/>
             }
-            {(imgList && imgList.length > 1) &&
+            {(imgList && imgList.length >= 1) &&
                 <div>
                     <FontAwesomeIcon icon={faChevronLeft} className='caroussel arrow left' onClick={() => decIndex()} />
                     <FontAwesomeIcon icon={faChevronRight} className='caroussel arrow right' onClick={() => incIndex()} />

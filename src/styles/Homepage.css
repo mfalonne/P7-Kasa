@@ -1,13 +1,11 @@
 
 .home.container {
     width:1440px;
-    margin:50px auto 0;
-   
+    margin:50px auto 0; 
 }
 .home-head-image {
     filter: brightness(50%);
 }
-
 .home.list {
     background-color: #f7f7f7;
     padding: 50px;
@@ -23,14 +21,8 @@
 
 @media screen and (max-width:767px) {
     .home.container {
-        width: calc(100% - 40px);
-        margin: 20px;
+        width: 95%;
     }
-
-    .home-head-image {
-        height: 111px !important;
-    }
-
     .home.list {
         background-color: white;
         padding: 0;
@@ -40,3 +32,14 @@
         margin: 20px 0;
     }
 }
+@media screen and (min-width:768px) and (max-width:991px){
+    .home.container {
+        width:95%;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1439px){
+    .home.container {
+        width:95%;
+    }
+}
+

@@ -5,3 +5,10 @@
     gap: 10px;
     justify-content: flex-start;
 }
+@media screen and (max-width: 767px) {
+    .tag-list.container {
+        width: 100%; 
+        margin: 0 0 auto;
+    }
+}
+
