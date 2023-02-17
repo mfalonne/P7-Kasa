@@ -2,7 +2,7 @@
 .lodging.container {
     width: 1440px;
     height: 1024px;
-    margin: 100px auto 0;
+    margin: 48px auto 0;
 }
 .lodging.infos {
     display: flex;

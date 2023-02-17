@@ -9,10 +9,9 @@
 .tag.name {
     width: 100%;
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 500;
-    color: white;
-    padding: 5px 0;
+    color: white;  
 }
 @media screen and (max-width: 767px) {
     .tag.container {
