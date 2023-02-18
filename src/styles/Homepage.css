@@ -1,6 +1,6 @@
 
 .home.container {
-    width:1440px;
+    width:88%;
     margin:50px auto 0; 
 }
 .home-head-image {
@@ -13,7 +13,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 1fr;
-    width: calc(100% - 100px);
+    width: calc(100%-100px);
     column-gap: 60px;
     row-gap: 50px;
     border-radius: 25px;

@@ -1,11 +1,7 @@
-/*.container {
-    border: 2px red solid;
-
-}*/
 
 .about.container {
-    width: 1440px;
-    margin: 50px auto 50px;
+    width: 80%;
+    margin: 50px auto 65px;
 }
 
 .about.dp-container {
