@@ -1,7 +1,6 @@
 
 .about.container {
-    width: 80%;
-    margin: 50px auto 65px;
+    padding: 50px;
 }
 
 .about.dp-container {
@@ -19,8 +18,7 @@
 
 @media screen and (max-width: 767px) {
     .about.container {
-        margin: 10px auto;
-        width: 95%;
+        padding: 50px;
     }
     .about.dp-container {
         width: 100%;
@@ -33,8 +31,7 @@
 }
 @media screen and (min-width:768px) and (max-width:991px){
     .about.container {
-        margin: 10px auto;
-        width: 95%;
+        padding: 50px;
     }
     .about.dp-container {
         width: 100%;
@@ -48,9 +45,7 @@
 }
 @media screen and (min-width:992px) and (max-width:1439px){
     .about.container {
-        margin:10px
-         auto;
-        width: 95%;
+        padding: 50px;
     }
     .about.dp-container {
         width: 100%;

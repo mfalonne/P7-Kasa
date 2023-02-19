@@ -16,9 +16,9 @@
 .head-image.title {
     display: flex;
     align-items: flex-end;
+    justify-content: center;
+    width: 100%;
     position: absolute;
-    left: 30.9%;
-    right: 25.14%;
     top: 24.32%;
     bottom: 9.84%;
     transform: translateY(-50%);

@@ -1,6 +1,7 @@
 
 .dropdown.container {
-    width: 1023px;
+    /*width: 1023px;*/
+    width: 100%;
 }
 .dropdown.title-container {
     position: relative;
